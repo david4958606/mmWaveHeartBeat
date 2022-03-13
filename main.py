@@ -4,7 +4,6 @@ mw_offset = 24
 space_offset = 6
 dw_offset = 12
 eof_offset = 3
-i = 1
 
 serial = open(file="TrialSun.txt", mode="rb+")
 
