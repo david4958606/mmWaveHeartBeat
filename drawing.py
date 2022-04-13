@@ -48,7 +48,7 @@ def get_first(file):
         t = loc['t']
         firsts.append(t[0])
 
-    with open('first.output', 'w') as f:
+    with open('first.2.output', 'w') as f:
         for i in firsts:
             f.write(i)
             f.write('\n')
@@ -69,7 +69,7 @@ def get_second(file):
         t = loc['t']
         firsts.append(t[1])
 
-    with open('second.output', 'w') as f:
+    with open('second.2.output', 'w') as f:
         for i in firsts:
             f.write(i)
             f.write('\n')
@@ -102,4 +102,4 @@ delEndLine('temp.txt')
 get_first('temp.txt')
 get_second('temp.txt')
 
-get_decimal('temp.txt')
+# get_decimal('temp.txt')

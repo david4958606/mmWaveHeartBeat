@@ -7,7 +7,7 @@ space_offset = 6
 dw_offset = 12
 eof_offset = 3
 
-serial = open(file="TrialSun.txt", mode="rb+")
+serial = open(file="TrialWang.txt", mode="rb+")
 
 def findMw(file):
     text = str(file.read(), "utf-8")
